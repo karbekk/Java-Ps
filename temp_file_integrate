@@ -31,3 +31,10 @@ your project structure was src/main/java/start.java but when you added it to Int
 
 In Project Setting (Ctrl+Shift+Alt+S) -> Modules -> Sources tab set src/main/java as Source Folder.
 In Intellij Idea - check File > ProjectStructure > ProjectSettings > Modules > Sources - your folder must be marked as a "Source". Also you should update your Run > EditConfigurations > Configuration > Main class to correspond with your package
+
+
+strongly typed - cant mix the diff variable types. Variables have fixed data type.
+weakly typed - variables dont really have a type
+
+static typing - must be declared before using
+dynamic typing - use without declaration on the fly
