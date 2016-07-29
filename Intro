@@ -2,6 +2,23 @@
 
 /*
 
+Java : The underlying basic is its a programming languages even though there are variations in its runtime environments. 
+
+In general, runtinme env refer to as Java SE - Java Standard edition which is kind of a basic environment.
+
+But, Oracle provides other runtime env which are subsets of SE : Jave Entrprise edition (EE), Java ME, Java FX,
+
+There are even the runtimes that are not tied to oracle. Andriod is the one. It provides diff runtime to the std runtime from oracle.
+
+But whatever the runtimes, they all support the same Java pgm langauage.
+
+
+JVM, JRE, JDK:
+
+JVM : Interpreter to process line by line java code
+JRE : JVM + Run time plus libraries
+JDK : JRE + Dev tools
+
 
 Java packages provide organisations within a java program.
 lang convention : All lowercase
@@ -43,3 +60,5 @@ byte,short,int,float,double,char
 
 if a variable is assigned a value and then another var is created and assogned 1st var, java creates 2 seperate 
 memory spaces. So we can change both of them later.
+
+----------------------------------------------------------------------------------
