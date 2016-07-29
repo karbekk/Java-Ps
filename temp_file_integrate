@@ -1,0 +1,33 @@
+// Java packages :
+
+/*
+
+
+Java packages provide organisations within a java program.
+lang convention : All lowercase
+
+a global package :
+
+package com.example;
+
+a custom package :
+
+package com.example.myproj
+
+
+a group package:
+
+package com.example.management
+
+
+Folder structure :
+If the package name is com.company.example then, folder structure would be 
+
+src -> com -> company -> example -> main.java 
+
+NOTE : In, Intellij Idea
+
+your project structure was src/main/java/start.java but when you added it to IntelliJ you have set src as a source folder, so IntelliJ put main.java as a package.
+
+In Project Setting (Ctrl+Shift+Alt+S) -> Modules -> Sources tab set src/main/java as Source Folder.
+In Intellij Idea - check File > ProjectStructure > ProjectSettings > Modules > Sources - your folder must be marked as a "Source". Also you should update your Run > EditConfigurations > Configuration > Main class to correspond with your package
