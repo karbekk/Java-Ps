@@ -62,3 +62,5 @@ if a variable is assigned a value and then another var is created and assogned 1
 memory spaces. So we can change both of them later.
 
 ----------------------------------------------------------------------------------
+Control structures -> conditions or decisions -> loops
+operators -> logical -> relational or comparisons
