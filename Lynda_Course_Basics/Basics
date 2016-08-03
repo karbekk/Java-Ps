@@ -13,7 +13,13 @@ JS doesnt have the access to local files.
 Cant directly access DB
 Cant access hardware
 
-JS - Client side pgm lang where code is executed on client browser after interpreting html and css recieved.
+JS - Client side pgm lang.
+     It interprets and executes html and css recieved from server on client browser.
      unlike server side programs which execue code on the web servers.
+     We send our code to client to execute it for us. So its designed as scripting lang with browser as host.
+     
+     even though now we have - servir side lang - node.js.
+     
+     
 
 
