@@ -51,7 +51,7 @@ In Intellij Idea - check File > ProjectStructure > ProjectSettings > Modules > S
 
 ------------------------------------------------------------------------------------
 strongly typed - cant mix the diff variable types. Variables have fixed data type.
-weakly typed - variables dont really have a type
+weakly typed - variables dont really have a type. Eg: JavaScript. Here string,int,boolean all are declared as var myNo, var myString so on
 
 static typing - must be declared before using
 dynamic typing - use without declaration on the fly
@@ -64,3 +64,4 @@ memory spaces. So we can change both of them later.
 ----------------------------------------------------------------------------------
 Control structures -> conditions or decisions -> loops
 operators -> logical -> relational or comparisons
+==== -> string assignment or comparision operator which check even the data type matches or not
