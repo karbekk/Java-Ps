@@ -2,3 +2,37 @@ Classes : Provide structures for describing and creating objects
 
 Usually source file is same name as the class name.
 
+-----------------------------------------------------------------
+
+Classes are reference types;
+
+Eg:
+
+Flight flight1 = new Flight();
+FLight flight2 = new Flight();
+
+flight2.addPassenger();                   -- flight2 pass = 1
+
+flight2 = flight1;
+
+flight1.addPassenger();                   -- flight2 pass = 1;
+flight1.addPassenger();                   -- flight2 pass = 2;
+
+-------------------------------------------------------------------
+
+Encapsulation or data hiding : close ties bw attributes + behaviour and protecting them
+
+this is accomplished through access modifiers.
+
+Types of AM:
+
+1. No access modifier: - visibility through out the package
+
+2. public : anywhere
+
+3. private : only within the class
+
+Note : Public classes must have the same name as that of source file name.
+
+--------------------------------------------------------------------------
+
