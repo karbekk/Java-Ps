@@ -30,7 +30,7 @@ public class Flight {
 
     public boolean hasRoom(Flight etihad)
     {
-        int total = passengers + etihad.passengers;
+        int total = this.passengers + etihad.passengers;
         return total <= seats;
     }
 
@@ -38,7 +38,7 @@ public class Flight {
     {
         Flight jet = new Flight();
         jet.seats = seats;
-        jet.passengers = passengers + etihad.passengers;
+        jet.passengers = this.passengers + etihad.passengers;
 
         return jet;
     }
@@ -50,16 +50,21 @@ public class Flight {
         Flight etihad = new Flight();
         System.out.print(emirates.passengers);
 
-//
-//        Flight airAsia = new Flight();
-//        Flight airCanada = new Flight();
-//
-//        Flight qatar;
-//
-//        if (airAsia.hasRoom(airCanada))
-//        {
-//            qatar = airAsia.combineFlight(airCanada);
-//        }
+
+        Flight airAsia = new Flight();
+        Flight airCanada = new Flight();
+
+        Flight qatar = null;
+
+        if (airAsia.hasRoom(airCanada))
+        {
+            qatar = airAsia.combineFlight(airCanada);
+        }
+
+        if (qatar!=null)
+        {
+            System.out.println("Combined");
+        }
     }
 }
 
