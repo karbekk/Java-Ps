@@ -50,16 +50,16 @@ public class Flight {
         Flight etihad = new Flight();
         System.out.print(emirates.passengers);
 
-
-        Flight airAsia = new Flight();
-        Flight airCanada = new Flight();
-
-        Flight qatar;
-
-        if (airAsia.hasRoom(airCanada))
-        {
-            qatar = airAsia.combineFlight(airCanada);
-        }
+//
+//        Flight airAsia = new Flight();
+//        Flight airCanada = new Flight();
+//
+//        Flight qatar;
+//
+//        if (airAsia.hasRoom(airCanada))
+//        {
+//            qatar = airAsia.combineFlight(airCanada);
+//        }
     }
 }
 
