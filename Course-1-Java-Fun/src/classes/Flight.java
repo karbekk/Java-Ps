@@ -13,6 +13,16 @@ public class Flight {
 
     }
 
+    public int getSeats()
+    {
+        return seats;
+    }
+
+    public void setSeats(int seats)
+    {
+        this.seats = seats;
+    }
+
     public void addPassenger() {
         if (passengers < seats) {
             passengers += 1;
@@ -65,6 +75,13 @@ public class Flight {
         {
             System.out.println("Combined");
         }
+
+        // getters and setters
+
+        Flight cathy = new Flight();
+        cathy.setSeats(100);
+        System.out.println(cathy.getSeats());
+
     }
 }
 

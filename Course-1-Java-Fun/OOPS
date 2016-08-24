@@ -36,5 +36,12 @@ Note : Public classes must have the same name as that of source file name.
 
 --------------------------------------------------------------------------
 
-this -> referes to the current object
+this -> refers to the current object
+
+--------------------------------------------------------------------
+
+Access and modifications to instance variables in class is done to Accessors and mutators.
+I.e getters and setters respectively.
+
+
 
