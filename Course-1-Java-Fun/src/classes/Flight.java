@@ -73,36 +73,5 @@ public class Flight {
 
         return jet;
     }
-
-    public static void main(String args[]) {
-        Flight emirates = new Flight();
-        emirates.addPassenger();
-        emirates.addPassenger();
-        Flight etihad = new Flight();
-        System.out.print(emirates.passengers);
-
-
-        Flight airAsia = new Flight();
-        Flight airCanada = new Flight();
-
-        Flight qatar = null;
-
-        if (airAsia.hasRoom(airCanada))
-        {
-            qatar = airAsia.combineFlight(airCanada);
-        }
-
-        if (qatar!=null)
-        {
-            System.out.println("Combined");
-        }
-
-        // getters and setters
-
-        Flight cathy = new Flight();
-        cathy.setSeats(100);
-        System.out.println(cathy.getSeats());
-
-    }
 }
 
