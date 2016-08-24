@@ -1,0 +1,4 @@
+Java parameters are pass by value as it copies the values.
+
+Classes objects can be pass by references.
+
