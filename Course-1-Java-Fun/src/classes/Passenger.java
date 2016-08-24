@@ -18,6 +18,13 @@ public class Passenger {
         this.freebags = freebags;
     }
 
+
+    public Passenger(int freebags, int checkbags)
+    {
+        this(freebags);             // always the first line of the code
+        this.checkbags = checkbags;
+    }
+
     public int getCheckbags()
     {
         return checkbags;
