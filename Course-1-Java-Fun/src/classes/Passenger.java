@@ -15,6 +15,7 @@ public class Passenger {
 
     public Passenger(int freebags)
     {
+        this(freebags > 1 ? 25.0d : 50.0d);
         this.freebags = freebags;
     }
 
@@ -23,6 +24,11 @@ public class Passenger {
     {
         this(freebags);             // always the first line of the code
         this.checkbags = checkbags;
+    }
+
+    private Passenger(double bagprice)
+    {
+        this.bagprice = bagprice;
     }
 
     public int getCheckbags()
@@ -53,5 +59,8 @@ public class Passenger {
 
         Passenger Rob = new Passenger(2);
         Rob.setCheckbags(3);
+
+        Passenger fred = new Passenger(2);
+        Passenger Jan = new Passenger(2,3);
     }
 }
