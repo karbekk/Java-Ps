@@ -4,13 +4,34 @@ package classes;
  * Created by kartik on 8/22/16.
  */
 public class Flight {
-    private int seats;
-    private int passengers;
+    private int seats = 150;
+    private int passengers,flightNumber;
+    private char flightClass;
+    private boolean[] isSeatAvailable;
+
+
+    // Initialization block
+    {
+        isSeatAvailable = new boolean[seats];
+
+        for (int i=0;i<seats;i++)
+        {
+            isSeatAvailable[i] = true;
+        }
+    }
+
 
     public Flight() {
-        seats = 1;
-        passengers = 0;
+    }
 
+    public Flight(int flightNumber)
+    {
+        this.flightNumber = flightNumber;
+    }
+
+    public Flight(char flightClass)
+    {
+        this.flightClass = flightClass;
     }
 
     public int getSeats()
