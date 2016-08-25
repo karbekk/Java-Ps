@@ -1,0 +1,5 @@
+Object class is the root class.
+
+Eg: Object -> Flight -> Cargo
+
+Flight class implicitly extends the object class.

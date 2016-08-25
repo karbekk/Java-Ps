@@ -1,0 +1,25 @@
+Final prevents from inheriting or overriding.
+
+If a class should be inherited :
+
+public final class Passenger{
+
+System.out.println ("You cant inherit from here");
+
+}
+
+
+-----------------------------------------------------------
+
+
+public class Passenger{
+
+System.out.println ("You cant inherit from here");
+
+public final void mymethod {
+
+System.out.println ("You cant override this method");
+
+}
+
+}
