@@ -1,6 +1,6 @@
 Final prevents from inheriting or overriding.
 
-If a class should be inherited :
+If a class should not be inherited :
 
 public final class Passenger{
 
