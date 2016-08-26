@@ -1,0 +1,18 @@
+String comparision using == operator is true only if the objects references point to the same object.
+Otherwise it returns false even though both the string have same characters.
+
+Eg: String s1 = "Hello";
+    String s2 = "Hello";
+
+
+if s1 = s2, comparision will return false. The correct equality operator is s1.equals(s2).
+
+or use intern() method.
+
+String s3 = s1.intern();
+String s4 = s2.intern();
+
+Now both s3 and s4 point to same object.
+
+So, if s3 = s4, results true.
+
