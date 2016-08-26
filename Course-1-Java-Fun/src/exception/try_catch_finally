@@ -1,0 +1,6 @@
+Try : To handle the normal code
+
+catch : to handle the errors
+
+finally : To do cleanup code. will always run after the try/catch block.
+
