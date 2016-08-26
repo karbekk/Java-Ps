@@ -1,0 +1,9 @@
+Packages : is a group of related types
+
+1. Creates namespaces
+2. Provides and controls accesses.
+3. Distribution of our code
+
+Packages provide folder structures for the class files.
+
+But this can be further simplified by creating archive or jar files as a single file.
