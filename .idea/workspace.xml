@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1df24555-0e5a-4f52-afb7-c6d76ec0c060" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Course-6-Multithreading and Concurrancy/.idea/Course-6-Multithreading and Concurrancy.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Course-6-Multithreading and Concurrancy/.idea/compiler.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Course-6-Multithreading and Concurrancy/.idea/copyright/profiles_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Course-6-Multithreading and Concurrancy/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Course-6-Multithreading and Concurrancy/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Course-6-Multithreading and Concurrancy/.idea/vcs.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Course-1-Java-Fun/.idea/workspace.xml" afterPath="$PROJECT_DIR$/Course-1-Java-Fun/.idea/workspace.xml" />
     </list>
     <ignored path="Java-Ps.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -52,7 +47,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="1" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
@@ -193,12 +188,12 @@
       <updated>1471881960673</updated>
       <workItem from="1471881965881" duration="31000" />
       <workItem from="1471882026624" duration="543000" />
-      <workItem from="1472409433740" duration="30000" />
+      <workItem from="1472409433740" duration="94000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="604000" />
+    <option name="totallyTimeSpent" value="668000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="61" y="24" width="1859" height="1056" extended-state="6" />
