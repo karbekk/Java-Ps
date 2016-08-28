@@ -783,7 +783,7 @@
       <workItem from="1472409457193" duration="1914000" />
       <workItem from="1472411672790" duration="247000" />
       <workItem from="1472411940672" duration="461000" />
-      <workItem from="1472412657988" duration="212000" />
+      <workItem from="1472412657988" duration="246000" />
     </task>
     <task id="LOCAL-00021" summary="Passing array of objects as parameter to method">
       <created>1472076684437</created>
@@ -1132,7 +1132,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72997000" />
+    <option name="totallyTimeSpent" value="73031000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="61" y="24" width="1859" height="1056" extended-state="6" />
