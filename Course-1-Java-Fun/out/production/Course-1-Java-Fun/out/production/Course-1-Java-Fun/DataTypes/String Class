@@ -1,0 +1,8 @@
+String comparision using == operator is true only if the objects references point to the same object.
+Otherwise it returns false even though both the string have same characters.
+
+Eg: String s1 = "Hello";
+    String s2 = "Hello";
+
+
+

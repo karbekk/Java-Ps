@@ -1,0 +1,54 @@
+Intro:
+
+Concurrancy : The art of doing several things at same time.
+
+Goal is to improve the performance of the code by lavereging the multi-core cpu's.
+
+THread:
+
+Threads are defined at the operating system level.
+
+Thread is nothing but set of instructions.
+
+An application can have several threads.
+
+Diff threads can be executed at same time. 
+
+JVM works with several threads -> Just in Time (JIT) and GC (Garbage collection) etc threads.
+
+
+Working at same time ?:
+
+Eg: writing the document, spellcheck at the background, recieving an email.
+
+ But on a single core CPU, All these things happen sequencially not parallel.
+
+
+For multiple core CPU, these things happen parallel on diff cpu's. or things are happening at same time.
+
+
+Core 1 -> Typing the document , email
+
+Core 2 -> Spell check , print
+
+
+Now, Sharing these tasks on the CPU is the job of thread scheuler which decides the CPU time for sharing.
+
+The scheduler can pause the thread for 3 important reasons:
+
+1. For sharing the CPU equally among the threads
+2. The thread is waiting for some more data usually from or to disk
+3. the thread is waiting for some other thread to do something      - Eg: release the resource
+
+Race Condition:
+
+Accessing the data concurrently may lead to issues.
+
+May be 2 threads are reading and writing the same variable at the same time.
+
+Just reading the same data at same time is not a race condition.
+
+
+
+
+

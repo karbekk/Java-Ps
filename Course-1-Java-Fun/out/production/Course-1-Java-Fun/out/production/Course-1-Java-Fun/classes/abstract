@@ -1,0 +1,36 @@
+making a method abstract means the class also needs to be made abstract.
+
+abstract method doesnt provide any implementations. So no method body.
+
+Eg:
+
+public abstract class Pilot
+{
+........
+........
+
+// just a signature
+
+   public abstract boolean canAccept(Flight f);
+}
+
+Implementing the abstract:
+
+public class CargoPilot extends Pilot {
+
+@Override
+public boolean canAccept(Flight f)
+{
+return f.getPassengers()==0;
+}
+}
+
+
+public class FullLicencePilot extends Pilot {
+
+@Override
+public boolean canAccept(Flight f)
+{
+return true;
+}
+}

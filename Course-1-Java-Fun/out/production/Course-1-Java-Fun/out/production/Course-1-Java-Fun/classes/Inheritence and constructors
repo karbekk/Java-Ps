@@ -1,0 +1,12 @@
+Constructors cannot be inherited.
+
+But derived classes must always call one of the base class constructor.
+
+If you don't explicitly call the base class constructor, then default no argument base class constructor will be called.
+from derived class even though derived class constructor has arguments.
+
+If you want a particular base class constructor from derived class then, super keyword needs to be used.
+
+But the super has  to be the first line of the code in derived class method.
+
+
