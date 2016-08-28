@@ -1,10 +1,10 @@
 Intro:
 
-Concurrancy : The art of doing several things at same time.
+Concurrency : The art of doing several things at same time.
 
 Goal is to improve the performance of the code by lavereging the multi-core cpu's.
 
-THread:
+Thread:
 
 Threads are defined at the operating system level.
 
