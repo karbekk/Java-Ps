@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="97598e70-9ac5-4878-bcf2-4898cfbda2d2" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.idea/misc.xml" afterPath="$PROJECT_DIR$/../.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.idea/workspace.xml" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Course-6-Multithreading-Synchronisation-Concurrancy.iml" afterPath="$PROJECT_DIR$/../Course-6-Multithreading-Synchronisation-Concurrancy.iml" />
     </list>
     <ignored path="Course-1-Java-Fun.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -203,37 +205,13 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Course-1-Java-Fun" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Course-1-Java-Fun" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Course-1-Java-Fun" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Course-1-Java-Fun" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value=".idea" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Course-6-Multithreading-Synchronisation-Concurrancy" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
@@ -803,14 +781,7 @@
       <workItem from="1472225594616" duration="7206000" />
       <workItem from="1472408982916" duration="16000" />
       <workItem from="1472409074007" duration="37000" />
-      <workItem from="1472409457193" duration="101000" />
-    </task>
-    <task id="LOCAL-00017" summary="Classes pass by references">
-      <created>1472052683070</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1472052683070</updated>
+      <workItem from="1472409457193" duration="1454000" />
     </task>
     <task id="LOCAL-00018" summary="Java parameter arguments - pass by value">
       <created>1472052743612</created>
@@ -1148,14 +1119,21 @@
       <option name="project" value="LOCAL" />
       <updated>1472409485169</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="Java Intro&#10;">
+      <created>1472409574930</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1472409574930</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70264000" />
+    <option name="totallyTimeSpent" value="71617000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="61" y="24" width="1859" height="1056" extended-state="6" />
+    <frame x="61" y="24" width="1859" height="1056" extended-state="7" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1225,7 +1203,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="false" />
-    <MESSAGE value="inheritence with Constructors" />
     <MESSAGE value="String class concepts" />
     <MESSAGE value="String comparision" />
     <MESSAGE value="Final Keyword" />
@@ -1250,7 +1227,8 @@
     <MESSAGE value="Using static imports&#10;" />
     <MESSAGE value="Using static &#10;" />
     <MESSAGE value="Removing course&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Removing course&#10;" />
+    <MESSAGE value="Java Intro&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Java Intro&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
