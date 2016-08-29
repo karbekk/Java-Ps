@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="97598e70-9ac5-4878-bcf2-4898cfbda2d2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/example/calcengine/MathEquation.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/example/calcengine/Main.java" afterPath="$PROJECT_DIR$/src/example/calcengine/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/example/calcengine/MathEquation.java" afterPath="$PROJECT_DIR$/src/example/calcengine/MathEquation.java" />
     </list>
     <ignored path="Course-1-Java-Fun.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -69,8 +69,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/example/calcengine/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="800">
-              <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+            <state relative-caret-position="375">
+              <caret line="17" column="77" selection-start-line="17" selection-start-column="77" selection-end-line="17" selection-end-column="77" />
               <folding>
                 <element signature="docComment;class#Main#0" expanded="false" />
               </folding>
@@ -81,8 +81,8 @@
       <file leaf-file-name="MathEquation.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/example/calcengine/MathEquation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+            <state relative-caret-position="163">
+              <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
               <folding>
                 <element signature="docComment;class#MathEquation#0" expanded="false" />
                 <element signature="method#execute#0;class#MathEquation#0" expanded="false" />
@@ -169,8 +169,8 @@
         <option value="$PROJECT_DIR$/src/packages/Package" />
         <option value="$PROJECT_DIR$/src/example/calcengine/CalcEngine.java" />
         <option value="$PROJECT_DIR$/src/example/calcengine/test.java" />
-        <option value="$PROJECT_DIR$/src/example/calcengine/Main.java" />
         <option value="$PROJECT_DIR$/src/example/calcengine/MathEquation.java" />
+        <option value="$PROJECT_DIR$/src/example/calcengine/Main.java" />
       </list>
     </option>
   </component>
@@ -897,14 +897,7 @@
       <workItem from="1472411940672" duration="461000" />
       <workItem from="1472412657988" duration="246000" />
       <workItem from="1472422266237" duration="1883000" />
-      <workItem from="1472424360555" duration="12499000" />
-    </task>
-    <task id="LOCAL-00025" summary="Main class">
-      <created>1472080352361</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1472080352361</updated>
+      <workItem from="1472424360555" duration="13824000" />
     </task>
     <task id="LOCAL-00026" summary="Inheritence">
       <created>1472080374559</created>
@@ -1242,11 +1235,18 @@
       <option name="project" value="LOCAL" />
       <updated>1472448479684</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="Class Implementation of Calcengine">
+      <created>1472453812291</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1472453812291</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87413000" />
+    <option name="totallyTimeSpent" value="88738000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="61" y="24" width="1859" height="1056" extended-state="6" />
@@ -1319,7 +1319,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="false" />
-    <MESSAGE value="Enumeration types&#10;" />
     <MESSAGE value="String classes&#10;&#10;" />
     <MESSAGE value="Static vs Final&#10;" />
     <MESSAGE value="Using toString for classes override" />
@@ -1344,7 +1343,8 @@
     <MESSAGE value="Baisc Program to test package&#10;" />
     <MESSAGE value="Arrays &amp; Loops &amp; for each &#10;" />
     <MESSAGE value="Switch-Case&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Switch-Case&#10;" />
+    <MESSAGE value="Class Implementation of Calcengine" />
+    <option name="LAST_COMMIT_MESSAGE" value="Class Implementation of Calcengine" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1631,8 +1631,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/example/calcengine/MathEquation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        <state relative-caret-position="163">
+          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
           <folding>
             <element signature="docComment;class#MathEquation#0" expanded="false" />
             <element signature="method#execute#0;class#MathEquation#0" expanded="false" />
@@ -1642,8 +1642,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/example/calcengine/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="800">
-          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+        <state relative-caret-position="375">
+          <caret line="17" column="77" selection-start-line="17" selection-start-column="77" selection-end-line="17" selection-end-column="77" />
           <folding>
             <element signature="docComment;class#Main#0" expanded="false" />
           </folding>
