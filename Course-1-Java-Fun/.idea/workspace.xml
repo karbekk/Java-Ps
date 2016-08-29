@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="97598e70-9ac5-4878-bcf2-4898cfbda2d2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/example/calcengine/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Course-1-Java-Fun.iml" afterPath="$PROJECT_DIR$/.idea/Course-1-Java-Fun.iml" />
+    <list default="true" id="97598e70-9ac5-4878-bcf2-4898cfbda2d2" name="Default" comment="&#10;">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/example/calcengine/Main.java" afterPath="$PROJECT_DIR$/src/example/calcengine/Main.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Course-6-Multithreading-Synchronisation-Concurrancy/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Course-6-Multithreading-Synchronisation-Concurrancy/.idea/workspace.xml" />
     </list>
     <ignored path="Course-1-Java-Fun.iws" />
@@ -70,8 +69,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/example/calcengine/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+            <state relative-caret-position="350">
+              <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -882,14 +881,7 @@
       <workItem from="1472411940672" duration="461000" />
       <workItem from="1472412657988" duration="246000" />
       <workItem from="1472422266237" duration="1883000" />
-      <workItem from="1472424360555" duration="1013000" />
-    </task>
-    <task id="LOCAL-00021" summary="Passing array of objects as parameter to method">
-      <created>1472076684437</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1472076684437</updated>
+      <workItem from="1472424360555" duration="3204000" />
     </task>
     <task id="LOCAL-00022" summary="Main method">
       <created>1472076960028</created>
@@ -1227,11 +1219,18 @@
       <option name="project" value="LOCAL" />
       <updated>1472412786388</updated>
     </task>
-    <option name="localTasksCounter" value="70" />
+    <task id="LOCAL-00070" summary="Baisc Program to test package&#10;">
+      <created>1472425611467</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1472425611468</updated>
+    </task>
+    <option name="localTasksCounter" value="71" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75927000" />
+    <option name="totallyTimeSpent" value="78118000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="61" y="24" width="1859" height="1056" extended-state="6" />
@@ -1304,7 +1303,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="false" />
-    <MESSAGE value="String class concepts" />
     <MESSAGE value="String comparision" />
     <MESSAGE value="Final Keyword" />
     <MESSAGE value="Enumeration types&#10;" />
@@ -1329,7 +1327,8 @@
     <MESSAGE value="Using static &#10;" />
     <MESSAGE value="Removing course&#10;" />
     <MESSAGE value="Java Intro&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Java Intro&#10;" />
+    <MESSAGE value="Baisc Program to test package&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Baisc Program to test package&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1623,8 +1622,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/example/calcengine/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        <state relative-caret-position="350">
+          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
           <folding />
         </state>
       </provider>
