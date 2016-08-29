@@ -20,13 +20,19 @@ public class Main {
 //        char opCode = 'd';
 
         for (int i = 0; i < opCodes.length; i++) {
-            if (opCodes[i] == 'a') {
-                results[i] = leftvals[i] + rightvals[i];
-            } else if (opCodes[i] == 's') {
-                results[i] = leftvals[i] - rightvals[i];
-            } else if (opCodes[i] == 'd') {
 
-                results[i] = rightvals[i] != 0.0d ? leftvals[i] / rightvals[i] : 0.0d;
+            switch (opCodes[i]) {
+
+                case 'a':
+                    results[i] = leftvals[i] + rightvals[i];
+                    break;
+                case 's':
+                    results[i] = leftvals[i] - rightvals[i];
+                    break;
+                case 'd':
+                    results[i] = rightvals[i] != 0.0d ? leftvals[i] / rightvals[i] : 0.0d;
+                    break;
+
 //            if (val2!=0) {
 //                result = val1 / val2;
 //            }
@@ -34,16 +40,21 @@ public class Main {
 //            {
 //                result = 0.0d;
 //            }
-            } else if (opCodes[i] == 'm') {
-                results[i] = leftvals[i] * rightvals[i];
-            } else {
-                System.out.print("Error");
-                results[i] = 0.0d;
-            }
 
-        }
-        for (double theResult : results) {
-            System.out.println(theResult);
+                case 'm':
+                    results[i] = leftvals[i] * rightvals[i];
+                    break;
+
+                default:
+                    System.out.print("Error");
+                    results[i] = 0.0d;
+                    break;
+                }
+
+            }
+            for (double theResult : results) {
+                System.out.println("The result is: " + theResult);
+            }
         }
     }
-}
+
