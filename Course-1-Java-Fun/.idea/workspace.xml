@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="97598e70-9ac5-4878-bcf2-4898cfbda2d2" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/example/calcengine/Main.java" afterPath="$PROJECT_DIR$/src/example/calcengine/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/example/calcengine/MathEquation.java" afterPath="$PROJECT_DIR$/src/example/calcengine/MathEquation.java" />
     </list>
     <ignored path="Course-1-Java-Fun.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -897,14 +895,7 @@
       <workItem from="1472411940672" duration="461000" />
       <workItem from="1472412657988" duration="246000" />
       <workItem from="1472422266237" duration="1883000" />
-      <workItem from="1472424360555" duration="13824000" />
-    </task>
-    <task id="LOCAL-00026" summary="Inheritence">
-      <created>1472080374559</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1472080374559</updated>
+      <workItem from="1472424360555" duration="13845000" />
     </task>
     <task id="LOCAL-00027" summary="Adding back main">
       <created>1472080400799</created>
@@ -1242,11 +1233,18 @@
       <option name="project" value="LOCAL" />
       <updated>1472453812291</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="Adding accessor and mutators">
+      <created>1472455128904</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1472455128904</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="88738000" />
+    <option name="totallyTimeSpent" value="88759000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="61" y="24" width="1859" height="1056" extended-state="6" />
@@ -1319,7 +1317,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="false" />
-    <MESSAGE value="String classes&#10;&#10;" />
     <MESSAGE value="Static vs Final&#10;" />
     <MESSAGE value="Using toString for classes override" />
     <MESSAGE value="Using try/catch/finally" />
@@ -1344,7 +1341,8 @@
     <MESSAGE value="Arrays &amp; Loops &amp; for each &#10;" />
     <MESSAGE value="Switch-Case&#10;" />
     <MESSAGE value="Class Implementation of Calcengine" />
-    <option name="LAST_COMMIT_MESSAGE" value="Class Implementation of Calcengine" />
+    <MESSAGE value="Adding accessor and mutators" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding accessor and mutators" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
