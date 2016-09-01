@@ -5,36 +5,35 @@ package example.calcengine;
  */
 public class MathEquation {
 
+    // Instance Variables
     private double leftVal;
     private double rightVal;
     private char opCode;
     private double result;
 
+
+    //Accessors and Mutators
+
     public double getLeftVal()
     {
         return leftVal;
     }
-
-    public double getRightVal()
-    {
-        return rightVal;
-    }
-
-    public char   getOpCode()
-    {
-        return opCode;
-    }
-
     public void   setLeftVal(double leftVal)
     {
         this.leftVal = leftVal;
     }
-
+    public double getRightVal()
+    {
+        return rightVal;
+    }
     public void   setRightVal(double rightVal)
     {
         this.rightVal = rightVal;
     }
-
+    public char   getOpCode()
+    {
+        return opCode;
+    }
     public void   setOpCode(char opCode)
     {
         this.opCode = opCode;
@@ -43,6 +42,24 @@ public class MathEquation {
     public double getResult()
     {
         return  result;
+    }
+
+
+    // Constructors
+    //Default constructor
+
+    public MathEquation() {}
+    public MathEquation(char opCode)
+    {
+        this.opCode = opCode;
+    }
+
+    // Constructor with opcode called from above constructor
+    public MathEquation(char opCode, double leftVal, double rightVal)
+    {
+        this(opCode);
+        this.leftVal = leftVal;
+        this.rightVal = rightVal;
     }
 
     public void execute()
