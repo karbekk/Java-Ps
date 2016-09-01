@@ -34,10 +34,10 @@ public class Main {
         MathEquation equationoverload = new MathEquation('d');
         equationoverload.execute(leftDouble,rightDouble);
 
-        System.out.print("The Result using double is :");
+        System.out.print("The Result using double is: ");
         System.out.println(equationoverload.getResult());
 
-        equationoverload.execute();
+        equationoverload.execute(leftInt,rightInt);
         System.out.println("The result using int is: "+equationoverload.getResult());
 
 
