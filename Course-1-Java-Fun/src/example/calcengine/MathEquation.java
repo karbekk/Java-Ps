@@ -49,6 +49,7 @@ public class MathEquation {
     //Default constructor
 
     public MathEquation() {}
+
     public MathEquation(char opCode)
     {
         this.opCode = opCode;
@@ -60,6 +61,14 @@ public class MathEquation {
         this(opCode);
         this.leftVal = leftVal;
         this.rightVal = rightVal;
+    }
+
+    public void execute(double leftVal, double rightVal)
+    {
+        this.leftVal = leftVal;
+        this.rightVal = rightVal;
+
+        execute();
     }
 
     public void execute()
