@@ -8,7 +8,7 @@ public class MathEquation {
     // Instance Variables
     private double leftVal;
     private double rightVal;
-    private char opCode;
+    private char opCode='a';
     private double result;
 
 
