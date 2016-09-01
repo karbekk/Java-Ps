@@ -73,6 +73,21 @@ public class MathEquation {
         execute();
     }
 
+    public void execute(int leftVal, int rightVal)
+    {
+        // The int is converted into double here as leftval and rightval are declared as double here.
+
+        this.leftVal = leftVal;
+        this.rightVal = rightVal;
+
+        execute();
+
+        // to get int result cast the resulted double to int.
+
+        result = (int) result;
+
+    }
+
     public void execute()
     {
         switch (opCode) {
