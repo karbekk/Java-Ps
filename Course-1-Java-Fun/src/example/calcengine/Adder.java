@@ -5,10 +5,17 @@ package example.calcengine;
  */
 public class Adder extends CalculateBase{
     public Adder(){}
+
+    // This method calls the constructor of the base class
     public Adder(double leftVal, double rightVal)
     {
         super(leftVal,rightVal);
     }
 
-    //public void calculate()
+    // Implementing the abstract method in child class
+
+    public void calculate()
+    {
+
+    }
 }
