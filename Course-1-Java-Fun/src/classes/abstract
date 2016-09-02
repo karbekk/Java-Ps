@@ -2,6 +2,13 @@ making a method abstract means the class also needs to be made abstract.
 
 abstract method doesnt provide any implementations. So no method body.
 
+If a class inherits the abstract class it must implement he abstract method.
+
+Abstract classes are for the sake of inheritance not for instantiating.
+
+They provide method signature which are then implemented by child classes based on their requirements.
+
+
 Eg:
 
 public abstract class Pilot
