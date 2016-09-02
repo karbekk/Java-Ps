@@ -16,6 +16,13 @@ public class Main {
                 "multiply 11.0 3.0"
         };
 
+
+        CalculateHelper helper = new CalculateHelper();
+        for (String statement: statements)
+        {
+            helper.process(statement);
+        }
+
     }
 
     static void useMathEquation() {
