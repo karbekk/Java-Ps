@@ -5,7 +5,7 @@ import com.Calc;
 /**
  * Created by kartik on 9/1/16.
  */
-public class CalculateBase {
+public abstract class CalculateBase {
 
     private double leftVal;
     private double rightVal;
@@ -47,4 +47,6 @@ public class CalculateBase {
         this.leftVal = leftVal;
         this.rightVal = rightVal;
     }
+
+    public abstract void calculate();
 }

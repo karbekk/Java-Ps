@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="97598e70-9ac5-4878-bcf2-4898cfbda2d2" name="Default" comment="">
+    <list default="true" id="97598e70-9ac5-4878-bcf2-4898cfbda2d2" name="Default" comment="Creating a base class for inheritance">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/example/calcengine/Main.java" afterPath="$PROJECT_DIR$/src/example/calcengine/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/example/calcengine/CalculateBase.java" afterPath="$PROJECT_DIR$/src/example/calcengine/CalculateBase.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/example/calcengine/MathEquation.java" afterPath="$PROJECT_DIR$/src/example/calcengine/MathEquation.java" />
     </list>
     <ignored path="Course-1-Java-Fun.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,18 +28,18 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/example/calcengine/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
+            <state relative-caret-position="775">
               <caret line="43" column="98" selection-start-line="43" selection-start-column="98" selection-end-line="43" selection-end-column="98" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MathEquation.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MathEquation.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/example/calcengine/MathEquation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="409">
-              <caret line="86" column="30" selection-start-line="86" selection-start-column="30" selection-end-line="86" selection-end-column="30" />
+            <state relative-caret-position="25">
+              <caret line="14" column="51" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
               <folding />
             </state>
           </provider>
@@ -47,17 +48,33 @@
       <file leaf-file-name="abstract" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/classes/abstract">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+            <state relative-caret-position="50">
+              <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Classes pass by copy or value.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/classes/Classes pass by copy or value.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
+      <file leaf-file-name="CalculateBase.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/example/calcengine/CalculateBase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+              <folding>
+                <element signature="e#246#247#0" expanded="true" />
+                <element signature="e#276#277#0" expanded="true" />
+                <element signature="e#326#327#0" expanded="true" />
+                <element signature="e#364#365#0" expanded="true" />
+                <element signature="e#403#404#0" expanded="true" />
+                <element signature="e#434#435#0" expanded="true" />
+                <element signature="e#486#487#0" expanded="true" />
+                <element signature="e#526#527#0" expanded="true" />
+                <element signature="e#563#564#0" expanded="true" />
+                <element signature="e#592#593#0" expanded="true" />
+                <element signature="e#640#641#0" expanded="true" />
+                <element signature="e#676#677#0" expanded="true" />
+              </folding>
+            </state>
           </provider>
         </entry>
       </file>
@@ -140,7 +157,6 @@
         <option value="$PROJECT_DIR$/src/classes/Main.java" />
         <option value="$PROJECT_DIR$/src/classes/Cargo.java" />
         <option value="$PROJECT_DIR$/src/classes/object class" />
-        <option value="$PROJECT_DIR$/src/classes/abstract" />
         <option value="$PROJECT_DIR$/src/classes/Inheritence and constructors" />
         <option value="$PROJECT_DIR$/src/DataTypes/test.java" />
         <option value="$PROJECT_DIR$/src/DataTypes/String Class" />
@@ -151,8 +167,10 @@
         <option value="$PROJECT_DIR$/src/packages/Package" />
         <option value="$PROJECT_DIR$/src/example/calcengine/CalcEngine.java" />
         <option value="$PROJECT_DIR$/src/example/calcengine/test.java" />
-        <option value="$PROJECT_DIR$/src/example/calcengine/MathEquation.java" />
         <option value="$PROJECT_DIR$/src/example/calcengine/Main.java" />
+        <option value="$PROJECT_DIR$/src/classes/abstract" />
+        <option value="$PROJECT_DIR$/src/example/calcengine/MathEquation.java" />
+        <option value="$PROJECT_DIR$/src/example/calcengine/CalculateBase.java" />
       </list>
     </option>
   </component>
@@ -241,6 +259,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="calcengine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Course-1-Java-Fun" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Course-1-Java-Fun" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="classes" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -883,21 +919,7 @@
       <workItem from="1472698167858" duration="139000" />
       <workItem from="1472746609615" duration="3782000" />
       <workItem from="1472761632960" duration="541000" />
-      <workItem from="1472762201817" duration="5049000" />
-    </task>
-    <task id="LOCAL-00035" summary="Using final keyword">
-      <created>1472136787024</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1472136787024</updated>
-    </task>
-    <task id="LOCAL-00036" summary="Constructor inheritence">
-      <created>1472142113381</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1472142113381</updated>
+      <workItem from="1472762201817" duration="7790000" />
     </task>
     <task id="LOCAL-00037" summary="inheritence and Constructors">
       <created>1472142137306</created>
@@ -1228,11 +1250,25 @@
       <option name="project" value="LOCAL" />
       <updated>1472773865289</updated>
     </task>
-    <option name="localTasksCounter" value="84" />
+    <task id="LOCAL-00084" summary="Passing double and int and letting the system to choose the best overloading method">
+      <created>1472775346448</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1472775346448</updated>
+    </task>
+    <task id="LOCAL-00085" summary="Creating a base class for inheritance">
+      <created>1472778875379</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1472778875379</updated>
+    </task>
+    <option name="localTasksCounter" value="86" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="98355000" />
+    <option name="totallyTimeSpent" value="101096000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="61" y="24" width="1859" height="1056" extended-state="6" />
@@ -1305,8 +1341,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="false" />
-    <MESSAGE value="Error handling" />
-    <MESSAGE value="Creating namspaces using packages" />
     <MESSAGE value="Creating archive files" />
     <MESSAGE value="Using import.*" />
     <MESSAGE value="Jar files from packages" />
@@ -1330,7 +1364,9 @@
     <MESSAGE value="Calling the overloaded method and cleaning the code in main method" />
     <MESSAGE value="Widening conversion bw double and int" />
     <MESSAGE value="Casting the result to int from double through overloading again" />
-    <option name="LAST_COMMIT_MESSAGE" value="Casting the result to int from double through overloading again" />
+    <MESSAGE value="Passing double and int and letting the system to choose the best overloading method" />
+    <MESSAGE value="Creating a base class for inheritance" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creating a base class for inheritance" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1343,13 +1379,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/Calc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/OOPS">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1552,14 +1581,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/classes/abstract">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/classes/Classes pass by copy or value.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -1600,17 +1621,46 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/example/calcengine/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
+        <state relative-caret-position="775">
           <caret line="43" column="98" selection-start-line="43" selection-start-column="98" selection-end-line="43" selection-end-column="98" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/abstract">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/example/calcengine/MathEquation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="86" column="30" selection-start-line="86" selection-start-column="30" selection-end-line="86" selection-end-column="30" />
+        <state relative-caret-position="25">
+          <caret line="14" column="51" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/example/calcengine/CalculateBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+          <folding>
+            <element signature="e#246#247#0" expanded="true" />
+            <element signature="e#276#277#0" expanded="true" />
+            <element signature="e#326#327#0" expanded="true" />
+            <element signature="e#364#365#0" expanded="true" />
+            <element signature="e#403#404#0" expanded="true" />
+            <element signature="e#434#435#0" expanded="true" />
+            <element signature="e#486#487#0" expanded="true" />
+            <element signature="e#526#527#0" expanded="true" />
+            <element signature="e#563#564#0" expanded="true" />
+            <element signature="e#592#593#0" expanded="true" />
+            <element signature="e#640#641#0" expanded="true" />
+            <element signature="e#676#677#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
