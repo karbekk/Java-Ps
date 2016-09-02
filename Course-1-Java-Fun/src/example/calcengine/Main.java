@@ -32,16 +32,16 @@ public class Main {
         int rightInt = 4;
 
         MathEquation equationoverload = new MathEquation('d');
-        equationoverload.execute(leftDouble,rightDouble);
+        equationoverload.execute(leftDouble, rightDouble);
 
         System.out.print("The Result using double is: ");
         System.out.println(equationoverload.getResult());
 
-        equationoverload.execute(leftInt,rightInt);
-        System.out.println("The result using int is: "+equationoverload.getResult());
+        equationoverload.execute(leftInt, rightInt);
+        System.out.println("The result using int is: " + equationoverload.getResult());
 
-        equationoverload.execute((double)leftInt,rightInt);
-        System.out.println("The result using best overloading is: "+equationoverload.getResult());
+        equationoverload.execute((double) leftInt, rightInt);
+        System.out.println("The result using best overloading is: " + equationoverload.getResult());
 
         System.out.println();
         System.out.println("Inheritance and over loading");
@@ -50,19 +50,19 @@ public class Main {
         // Instantiating the child classes through array of objects
 
         CalculateBase[] calculators = {
-                new Divider(100.0d,50.0d),
+                new Divider(100.0d, 50.0d),
                 new Adder(25.0d, 92.0d),
-                new Subtracter(225.0d,17.0d),
-                new Multiplier(11.0d,3.0d)
+                new Subtracter(225.0d, 17.0d),
+                new Multiplier(11.0d, 3.0d)
         };
 
-        for (CalculateBase calculator:calculators)
-        {
+        for (CalculateBase calculator : calculators) {
             calculator.calculate();
             System.out.println("The result is: " + calculator.getResult());
         }
 
     }
+}
 
 //    public static MathEquation create(double leftVal, double rightVal, char opCode)
 //        {
@@ -73,6 +73,3 @@ public class Main {
 //        return equation;
 //
 //    }
-
-
-}
