@@ -12,7 +12,7 @@ public class MathEquation {
     private double result;
 
 
-    //Accessors and Mutators
+    //Accessors and Mutators or Getters and Setters
 
     public double getLeftVal()
     {
