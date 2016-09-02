@@ -14,6 +14,7 @@ public class Adder extends CalculateBase{
 
     // Implementing the abstract method in child class
 
+    @Override
     public void calculate()
     {
 
