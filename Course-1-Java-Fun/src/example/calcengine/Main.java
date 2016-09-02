@@ -40,6 +40,9 @@ public class Main {
         equationoverload.execute(leftInt,rightInt);
         System.out.println("The result using int is: "+equationoverload.getResult());
 
+        equationoverload.execute((double)leftInt,rightInt);
+        System.out.println("The result using best overloading is: "+equationoverload.getResult());
+
 
     }
 
