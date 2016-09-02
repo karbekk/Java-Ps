@@ -3,6 +3,7 @@ package example.calcengine;
 /**
  * Created by kartik on 9/1/16.
  */
+
 public class Adder extends CalculateBase{
     public Adder(){}
 
@@ -17,6 +18,7 @@ public class Adder extends CalculateBase{
     @Override
     public void calculate()
     {
-
+        double value = getLeftVal() + getRightVal();
+        setResult(value);
     }
 }
