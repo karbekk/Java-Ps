@@ -22,6 +22,33 @@ public class CalculateHelper {
         leftValue = Double.parseDouble(parts[1]);    // 1.0
         rightValue = Double.parseDouble(parts[2]);   // 2.0
 
+        setCommandFromString(commandString);
+
+        CalculateBase calculator = null;
+
+        switch (command)
+        {
+            case Add:
+                calculator = new Adder(leftValue,rightValue);
+                break;
+
+            case Subtract:
+                calculator = new Subtracter(leftValue,rightValue);
+                break;
+
+            case Multiply:
+                calculator = new Multiplier(leftValue,rightValue);
+                break;
+
+            case Divide:
+                calculator = new Divider(leftValue,rightValue);
+                break;
+
+        }
+
+        calculator.calculate();
+        result = calculator.getResult();
+
     }
 
     private void setCommandFromString(String commandString)

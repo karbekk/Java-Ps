@@ -4,6 +4,7 @@
     <list default="true" id="97598e70-9ac5-4878-bcf2-4898cfbda2d2" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/example/calcengine/CalculateHelper.java" afterPath="$PROJECT_DIR$/src/example/calcengine/CalculateHelper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/example/calcengine/Main.java" afterPath="$PROJECT_DIR$/src/example/calcengine/Main.java" />
     </list>
     <ignored path="Course-1-Java-Fun.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,8 +28,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/example/calcengine/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+            <state relative-caret-position="550">
+              <caret line="22" column="38" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -47,8 +48,8 @@
       <file leaf-file-name="CalculateHelper.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/example/calcengine/CalculateHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
-              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+            <state relative-caret-position="100">
+              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -102,10 +103,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="475">
               <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-              <folding>
-                <element signature="e#247#248#0" expanded="true" />
-                <element signature="e#286#287#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -203,8 +201,8 @@
         <option value="$PROJECT_DIR$/src/example/calcengine/Multiplier.java" />
         <option value="$PROJECT_DIR$/src/example/calcengine/Divider.java" />
         <option value="$PROJECT_DIR$/src/example/calcengine/MathCommand.java" />
-        <option value="$PROJECT_DIR$/src/example/calcengine/Main.java" />
         <option value="$PROJECT_DIR$/src/example/calcengine/CalculateHelper.java" />
+        <option value="$PROJECT_DIR$/src/example/calcengine/Main.java" />
       </list>
     </option>
   </component>
@@ -936,14 +934,7 @@
       <workItem from="1472746609615" duration="3782000" />
       <workItem from="1472761632960" duration="541000" />
       <workItem from="1472762201817" duration="15892000" />
-      <workItem from="1472831961118" duration="4682000" />
-    </task>
-    <task id="LOCAL-00052" summary="Error handling">
-      <created>1472227413440</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1472227413440</updated>
+      <workItem from="1472831961118" duration="6224000" />
     </task>
     <task id="LOCAL-00053" summary="Creating archive files">
       <created>1472231059128</created>
@@ -1281,11 +1272,18 @@
       <option name="project" value="LOCAL" />
       <updated>1472836098353</updated>
     </task>
-    <option name="localTasksCounter" value="101" />
+    <task id="LOCAL-00101" summary="Helper Class - Compare the add string from main is same as enum declared command">
+      <created>1472837579233</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1472837579233</updated>
+    </task>
+    <option name="localTasksCounter" value="102" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="113880000" />
+    <option name="totallyTimeSpent" value="115422000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="61" y="24" width="1859" height="1056" extended-state="6" />
@@ -1358,7 +1356,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="false" />
-    <MESSAGE value="Adding accessor and mutators" />
     <MESSAGE value="Adding Constructors to make clean code" />
     <MESSAGE value="Adding the overloaded method" />
     <MESSAGE value="Adding the initial opcode value" />
@@ -1383,7 +1380,8 @@
     <MESSAGE value="Adding operations as strings in main method" />
     <MESSAGE value="Creating enumeration class" />
     <MESSAGE value="Helper Class - Parse the string from main using split and convert string into double" />
-    <option name="LAST_COMMIT_MESSAGE" value="Helper Class - Parse the string from main using split and convert string into double" />
+    <MESSAGE value="Helper Class - Compare the add string from main is same as enum declared command" />
+    <option name="LAST_COMMIT_MESSAGE" value="Helper Class - Compare the add string from main is same as enum declared command" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1601,17 +1599,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/example/calcengine/Substracter.java" />
-    <entry file="file://$PROJECT_DIR$/src/example/calcengine/Adder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-          <folding>
-            <element signature="e#247#248#0" expanded="true" />
-            <element signature="e#286#287#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/example/calcengine/Subtracter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
@@ -1682,18 +1669,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/example/calcengine/Adder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/example/calcengine/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        <state relative-caret-position="550">
+          <caret line="22" column="38" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/example/calcengine/CalculateHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        <state relative-caret-position="100">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding />
         </state>
       </provider>
