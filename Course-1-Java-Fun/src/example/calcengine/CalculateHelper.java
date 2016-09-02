@@ -107,10 +107,8 @@ public class CalculateHelper {
             sb.append(" = ");
             sb.append(result);
 
-            return sb.to
+            return sb.toString();
 
 
         }
-
-    }
 }
