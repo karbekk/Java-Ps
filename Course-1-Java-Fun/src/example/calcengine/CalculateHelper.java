@@ -27,5 +27,20 @@ public class CalculateHelper {
     private void setCommandFromString(String commandString)
     {
         if(commandString.equalsIgnoreCase(MathCommand.Add.toString()))
+        {
+            command = MathCommand.Add;
+        }
+        else if(commandString.equalsIgnoreCase(MathCommand.Subtract.toString()))
+        {
+            command = MathCommand.Subtract;
+        }
+        else if(commandString.equalsIgnoreCase(MathCommand.Multiply.toString()))
+        {
+            command = MathCommand.Multiply;
+        }
+        else if(commandString.equalsIgnoreCase(MathCommand.Divide.toString()))
+        {
+            command = MathCommand.Divide;
+        }
     }
 }
