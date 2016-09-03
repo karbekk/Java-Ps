@@ -6,9 +6,10 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="97598e70-9ac5-4878-bcf2-4898cfbda2d2" name="Default" comment="Generating artifacts for creating jar file">
+    <list default="true" id="97598e70-9ac5-4878-bcf2-4898cfbda2d2" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/example/calcengine/MathCommand.java" afterPath="$PROJECT_DIR$/src/example/calcengine/MathCommand.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/example/calcengine/Adder.java" afterPath="$PROJECT_DIR$/src/example/calcengine/Adder.java" />
     </list>
     <ignored path="Course-1-Java-Fun.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,11 +33,31 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/example/myapp/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+            <state relative-caret-position="450">
+              <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MathProcessing.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/example/calcengine/MathProcessing.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="275">
+              <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="abstract" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/classes/abstract">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="50">
+              <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -66,7 +87,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MathCommand.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MathCommand.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/example/calcengine/MathCommand.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="250">
@@ -100,44 +121,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MathEquation.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/example/calcengine/MathEquation.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="900">
-              <caret line="60" column="21" selection-start-line="60" selection-start-column="21" selection-end-line="60" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="CalculateBase.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/example/calcengine/CalculateBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="709">
-              <caret line="50" column="35" selection-start-line="50" selection-start-column="35" selection-end-line="50" selection-end-column="35" />
+            <state relative-caret-position="484">
+              <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Adder.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Adder.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/example/calcengine/Adder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Divider.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/example/calcengine/Divider.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+            <state relative-caret-position="559">
+              <caret line="39" column="20" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
               <folding>
-                <element signature="e#193#194#0" expanded="true" />
-                <element signature="e#232#233#0" expanded="true" />
+                <element signature="e#550#551#0" expanded="true" />
+                <element signature="e#578#579#0" expanded="true" />
+                <element signature="e#623#624#0" expanded="true" />
+                <element signature="e#649#650#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -150,6 +153,7 @@
       <list>
         <option value="Enum" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -191,7 +195,6 @@
         <option value="$PROJECT_DIR$/src/example/calcengine/MathEquation.java" />
         <option value="$PROJECT_DIR$/src/example/calcengine/CalculateBase.java" />
         <option value="$PROJECT_DIR$/src/classes/abstract" />
-        <option value="$PROJECT_DIR$/src/example/calcengine/Adder.java" />
         <option value="$PROJECT_DIR$/src/example/calcengine/Substracter.java" />
         <option value="$PROJECT_DIR$/src/example/calcengine/Subtracter.java" />
         <option value="$PROJECT_DIR$/src/example/calcengine/Multiplier.java" />
@@ -200,8 +203,10 @@
         <option value="$PROJECT_DIR$/src/example/calcengine/InvalidException.java" />
         <option value="$PROJECT_DIR$/src/example/calcengine/Main.java" />
         <option value="$PROJECT_DIR$/src/package/Jar Creation" />
-        <option value="$PROJECT_DIR$/src/example/myapp/Main.java" />
         <option value="$PROJECT_DIR$/src/example/calcengine/MathCommand.java" />
+        <option value="$PROJECT_DIR$/src/example/myapp/Main.java" />
+        <option value="$PROJECT_DIR$/src/example/calcengine/MathProcessing.java" />
+        <option value="$PROJECT_DIR$/src/example/calcengine/Adder.java" />
       </list>
     </option>
   </component>
@@ -289,6 +294,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myapp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -941,28 +950,7 @@
       <workItem from="1472746609615" duration="3782000" />
       <workItem from="1472761632960" duration="541000" />
       <workItem from="1472762201817" duration="15892000" />
-      <workItem from="1472831961118" duration="19049000" />
-    </task>
-    <task id="LOCAL-00070" summary="Baisc Program to test package&#10;">
-      <created>1472425611467</created>
-      <option name="number" value="00070" />
-      <option name="presentableId" value="LOCAL-00070" />
-      <option name="project" value="LOCAL" />
-      <updated>1472425611468</updated>
-    </task>
-    <task id="LOCAL-00071" summary="Baisc Program to test package&#10;">
-      <created>1472429949690</created>
-      <option name="number" value="00071" />
-      <option name="presentableId" value="LOCAL-00071" />
-      <option name="project" value="LOCAL" />
-      <updated>1472429949690</updated>
-    </task>
-    <task id="LOCAL-00072" summary="Arrays &amp; Loops &amp; for each &#10;">
-      <created>1472436496254</created>
-      <option name="number" value="00072" />
-      <option name="presentableId" value="LOCAL-00072" />
-      <option name="project" value="LOCAL" />
-      <updated>1472436496254</updated>
+      <workItem from="1472831961118" duration="21480000" />
     </task>
     <task id="LOCAL-00073" summary="Switch-Case&#10;">
       <created>1472448479684</created>
@@ -1286,15 +1274,36 @@
       <option name="project" value="LOCAL" />
       <updated>1472871262314</updated>
     </task>
-    <option name="localTasksCounter" value="119" />
+    <task id="LOCAL-00119" summary="Making enum private">
+      <created>1472871657368</created>
+      <option name="number" value="00119" />
+      <option name="presentableId" value="LOCAL-00119" />
+      <option name="project" value="LOCAL" />
+      <updated>1472871657369</updated>
+    </task>
+    <task id="LOCAL-00120" summary="Changing main for implementation">
+      <created>1472878172927</created>
+      <option name="number" value="00120" />
+      <option name="presentableId" value="LOCAL-00120" />
+      <option name="project" value="LOCAL" />
+      <updated>1472878172928</updated>
+    </task>
+    <task id="LOCAL-00121" summary="Adding Interface">
+      <created>1472878194924</created>
+      <option name="number" value="00121" />
+      <option name="presentableId" value="LOCAL-00121" />
+      <option name="project" value="LOCAL" />
+      <updated>1472878194925</updated>
+    </task>
+    <option name="localTasksCounter" value="122" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="128247000" />
+    <option name="totallyTimeSpent" value="130678000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="61" y="24" width="1859" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1308,7 +1317,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17267348" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17267348" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1363,9 +1372,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="false" />
-    <MESSAGE value="Adding the abstract method implementation logic" />
-    <MESSAGE value="Adding child class subtractor" />
-    <MESSAGE value="Adding multiplier and divider child classes" />
     <MESSAGE value="MathEquation with switch cases" />
     <MESSAGE value="Instantiating all the child classes in main using the array of classes" />
     <MESSAGE value="Adding operations as strings in main method" />
@@ -1388,7 +1394,10 @@
     <MESSAGE value="Jar file for the project" />
     <MESSAGE value="Generating artifacts for creating jar file" />
     <MESSAGE value="Add necessary import statements from other packages" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add necessary import statements from other packages" />
+    <MESSAGE value="Making enum private" />
+    <MESSAGE value="Changing main for implementation" />
+    <MESSAGE value="Adding Interface" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding Interface" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1401,13 +1410,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/classes/Passenger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/classes/Pass by copy.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -1582,14 +1584,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/classes/abstract">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="102" selection-start-line="8" selection-start-column="102" selection-end-line="8" selection-end-column="102" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/example/calcengine/Substracter.java" />
     <entry file="file://$PROJECT_DIR$/src/example/calcengine/Subtracter.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1632,39 +1626,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/example/calcengine/Adder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/classes/final">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/example/calcengine/CalculateBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="709">
-          <caret line="50" column="35" selection-start-line="50" selection-start-column="35" selection-end-line="50" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/example/calcengine/CalculateHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-          <folding>
-            <element signature="docComment;class#CalculateHelper#0" expanded="false" />
-            <element signature="method#setCommandFromString#0;class#CalculateHelper#0" expanded="false" />
-            <element signature="method#toString#0;class#CalculateHelper#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1689,10 +1655,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/example/calcengine/CalculateHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+          <folding>
+            <element signature="docComment;class#CalculateHelper#0" expanded="false" />
+            <element signature="method#setCommandFromString#0;class#CalculateHelper#0" expanded="false" />
+            <element signature="method#toString#0;class#CalculateHelper#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/example/myapp/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+        <state relative-caret-position="450">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1704,6 +1682,43 @@
         <state relative-caret-position="250">
           <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/abstract">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/example/calcengine/CalculateBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/example/calcengine/MathProcessing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/example/calcengine/Adder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="559">
+          <caret line="39" column="20" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
+          <folding>
+            <element signature="e#550#551#0" expanded="true" />
+            <element signature="e#578#579#0" expanded="true" />
+            <element signature="e#623#624#0" expanded="true" />
+            <element signature="e#649#650#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
