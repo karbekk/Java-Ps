@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="97598e70-9ac5-4878-bcf2-4898cfbda2d2" name="Default" comment="Main method to call up the helper class">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/example/calcengine/CalculateHelper.java" afterPath="$PROJECT_DIR$/src/example/calcengine/CalculateHelper.java" />
     </list>
     <ignored path="Course-1-Java-Fun.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,12 +24,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/example/calcengine/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="434">
-              <caret line="23" column="37" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
+            <state relative-caret-position="900">
+              <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InvalidException.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/example/calcengine/InvalidException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="17" column="99" selection-start-line="17" selection-start-column="99" selection-end-line="17" selection-end-column="99" />
+              <folding>
+                <element signature="e#337#338#0" expanded="true" />
+                <element signature="e#381#382#0" expanded="true" />
+                <element signature="e#586#587#0" expanded="true" />
+                <element signature="e#636#637#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -43,14 +59,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CalculateHelper.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CalculateHelper.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/example/calcengine/CalculateHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="334">
-              <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
+            <state relative-caret-position="500">
+              <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
               <folding>
                 <element signature="docComment;class#CalculateHelper#0" expanded="false" />
-                <element signature="method#process#0;class#CalculateHelper#0" expanded="false" />
                 <element signature="method#setCommandFromString#0;class#CalculateHelper#0" expanded="false" />
                 <element signature="method#toString#0;class#CalculateHelper#0" expanded="false" />
               </folding>
@@ -94,19 +109,6 @@
             <state relative-caret-position="475">
               <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Subtracter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/example/calcengine/Subtracter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="18" selection-end-column="5" />
-              <folding>
-                <element signature="e#203#204#0" expanded="true" />
-                <element signature="e#242#243#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -191,8 +193,9 @@
         <option value="$PROJECT_DIR$/src/example/calcengine/Multiplier.java" />
         <option value="$PROJECT_DIR$/src/example/calcengine/Divider.java" />
         <option value="$PROJECT_DIR$/src/example/calcengine/MathCommand.java" />
-        <option value="$PROJECT_DIR$/src/example/calcengine/Main.java" />
         <option value="$PROJECT_DIR$/src/example/calcengine/CalculateHelper.java" />
+        <option value="$PROJECT_DIR$/src/example/calcengine/InvalidException.java" />
+        <option value="$PROJECT_DIR$/src/example/calcengine/Main.java" />
       </list>
     </option>
   </component>
@@ -262,6 +265,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Course-1-Java-Fun" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Course-1-Java-Fun" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="calcengine" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -906,35 +927,7 @@
       <workItem from="1472746609615" duration="3782000" />
       <workItem from="1472761632960" duration="541000" />
       <workItem from="1472762201817" duration="15892000" />
-      <workItem from="1472831961118" duration="11381000" />
-    </task>
-    <task id="LOCAL-00059" summary="Packages">
-      <created>1472231335154</created>
-      <option name="number" value="00059" />
-      <option name="presentableId" value="LOCAL-00059" />
-      <option name="project" value="LOCAL" />
-      <updated>1472231335155</updated>
-    </task>
-    <task id="LOCAL-00060" summary="Using single import">
-      <created>1472231347549</created>
-      <option name="number" value="00060" />
-      <option name="presentableId" value="LOCAL-00060" />
-      <option name="project" value="LOCAL" />
-      <updated>1472231347549</updated>
-    </task>
-    <task id="LOCAL-00061" summary="Interface and its declaration">
-      <created>1472241139613</created>
-      <option name="number" value="00061" />
-      <option name="presentableId" value="LOCAL-00061" />
-      <option name="project" value="LOCAL" />
-      <updated>1472241139613</updated>
-    </task>
-    <task id="LOCAL-00062" summary="Static members">
-      <created>1472259281444</created>
-      <option name="number" value="00062" />
-      <option name="presentableId" value="LOCAL-00062" />
-      <option name="project" value="LOCAL" />
-      <updated>1472259281444</updated>
+      <workItem from="1472831961118" duration="15052000" />
     </task>
     <task id="LOCAL-00063" summary="Using static imports&#10;">
       <created>1472259300045</created>
@@ -1251,15 +1244,43 @@
       <option name="project" value="LOCAL" />
       <updated>1472846657675</updated>
     </task>
-    <option name="localTasksCounter" value="108" />
+    <task id="LOCAL-00108" summary="Main method to call up the helper class">
+      <created>1472863147993</created>
+      <option name="number" value="00108" />
+      <option name="presentableId" value="LOCAL-00108" />
+      <option name="project" value="LOCAL" />
+      <updated>1472863147993</updated>
+    </task>
+    <task id="LOCAL-00109" summary="Adding invalid statements to handle errors">
+      <created>1472867541634</created>
+      <option name="number" value="00109" />
+      <option name="presentableId" value="LOCAL-00109" />
+      <option name="project" value="LOCAL" />
+      <updated>1472867541634</updated>
+    </task>
+    <task id="LOCAL-00110" summary="Adding a new custom exception">
+      <created>1472867592179</created>
+      <option name="number" value="00110" />
+      <option name="presentableId" value="LOCAL-00110" />
+      <option name="project" value="LOCAL" />
+      <updated>1472867592180</updated>
+    </task>
+    <task id="LOCAL-00111" summary="invalid statements and error handling">
+      <created>1472867631657</created>
+      <option name="number" value="00111" />
+      <option name="presentableId" value="LOCAL-00111" />
+      <option name="project" value="LOCAL" />
+      <updated>1472867631657</updated>
+    </task>
+    <option name="localTasksCounter" value="112" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="120579000" />
+    <option name="totallyTimeSpent" value="124250000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="61" y="24" width="1859" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1273,7 +1294,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17267348" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17267348" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1328,9 +1349,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="false" />
-    <MESSAGE value="Casting the result to int from double through overloading again" />
-    <MESSAGE value="Passing double and int and letting the system to choose the best overloading method" />
-    <MESSAGE value="Creating a base class for inheritance" />
     <MESSAGE value="Creating a abstract method and abstract class for inheriting and using it" />
     <MESSAGE value="Adding child class adder to inherit from base class" />
     <MESSAGE value="Adding child class constructor with super keyword to call the base class constructor" />
@@ -1353,7 +1371,10 @@
     <MESSAGE value="String builder class to build and return the string" />
     <MESSAGE value="Complete Helper class" />
     <MESSAGE value="Main method to call up the helper class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Main method to call up the helper class" />
+    <MESSAGE value="Adding invalid statements to handle errors" />
+    <MESSAGE value="Adding a new custom exception" />
+    <MESSAGE value="invalid statements and error handling" />
+    <option name="LAST_COMMIT_MESSAGE" value="invalid statements and error handling" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1366,13 +1387,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Intro">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1950">
-          <caret line="78" column="73" selection-start-line="78" selection-start-column="73" selection-end-line="78" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/inheritence/CargoFlight.java" />
     <entry file="file://$PROJECT_DIR$/src/classes/Passenger.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1637,24 +1651,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/example/calcengine/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/example/calcengine/InvalidException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="23" column="37" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
-          <folding />
+        <state relative-caret-position="350">
+          <caret line="17" column="99" selection-start-line="17" selection-start-column="99" selection-end-line="17" selection-end-column="99" />
+          <folding>
+            <element signature="e#337#338#0" expanded="true" />
+            <element signature="e#381#382#0" expanded="true" />
+            <element signature="e#586#587#0" expanded="true" />
+            <element signature="e#636#637#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/example/calcengine/CalculateHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
+        <state relative-caret-position="500">
+          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
           <folding>
             <element signature="docComment;class#CalculateHelper#0" expanded="false" />
-            <element signature="method#process#0;class#CalculateHelper#0" expanded="false" />
             <element signature="method#setCommandFromString#0;class#CalculateHelper#0" expanded="false" />
             <element signature="method#toString#0;class#CalculateHelper#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/example/calcengine/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
