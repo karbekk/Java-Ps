@@ -25,7 +25,9 @@ public class Main {
             try{
             helper.process(statement);
             System.out.println(helper);
-            } catch (InvalidException e)
+            }
+
+            catch (InvalidException e)
             {
                 System.out.println(e.getMessage());
                 if(e.getCause() != null)
