@@ -1,0 +1,38 @@
+1. Go to project structure in IntellijIdea
+2. Go to artifacts
+3. add new -> jar file.
+4. choose from module dependencies.
+5. choose the main method for entry point.
+    this created a manifest file with the main method as entry point.
+
+ --------------------------
+
+ Now go to intellijidea -> go to build -> build artifacts -> calcengine:jar -> build
+
+ --------------------------
+
+ go to your out folder to see the jar and manifest file both in diff places though
+
+ go to where jar file is in terminal.
+
+ run the jar as -> java -jar Calcengine.jar
+
+ Note: The whole source folder is archived in my project case with all the notes in it.
+
+ But since the manifest file concentrates on entry point main -> only class files are run.
+
+ The jar file in windows is nothing but a zip file. so you can rename it as zip and explore it.
+
+ the Jar file as - 1. Manifest file inside it to tell the entry point
+                   2. then the package name in folder structure.
+
+
+ Note : Jar file is a combination of diff packages as well.
+
+ =======================================
+
+ Creating diff packages means dependencies. so add necessary import statements.
+
+  either add each class import one by one or by *
+
+
