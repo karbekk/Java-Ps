@@ -5,9 +5,12 @@ package example.myapp;
 
 import example.calcengine.CalculateBase;
 import example.calcengine.CalculateHelper;
+import example.calcengine.DynamicHelper;
 import example.calcengine.InvalidException;
 import example.calcengine.MathEquation;
 import example.calcengine.Adder;
+import example.calcengine.MathProcessing;
+import example.calcengine.PowerOf;
 import example.calcengine.Subtracter;
 import example.calcengine.Multiplier;
 import example.calcengine.Divider;
@@ -20,12 +23,18 @@ public class Main {
     public static void main(String[] args) {
 
         String[] statements = {
-          "add 25.0 92.0",
+          "add 25.0 92.0", "power 5.0 2.0",
         };
+
+        DynamicHelper helper = new DynamicHelper(new MathProcessing[]
+        {
+          new Adder(), new PowerOf()
+        });
 
         for (String statement:statements)
         {
-
+            String output = helper.process(statement);
+            System.out.println(output);
         }
 
     }
