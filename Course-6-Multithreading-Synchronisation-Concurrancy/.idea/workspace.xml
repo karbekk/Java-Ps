@@ -1,19 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="661ba284-1d78-48ef-8229-8dbc79bd2018" name="Default" comment="Singleton class&#10;">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/livecoding/FirstRunnable$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/livecoding/FirstRunnable.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/livecoding/FirstSample$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/livecoding/FirstSample.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/livecoding/LongWrapper.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/livecoding/RaceCondtition$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/livecoding/RaceCondtition.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/synchronisation/Singleton.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/synchronisation/Synckey.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/threading/Singleton.class" afterPath="$PROJECT_DIR$/out/threading/Singleton.class" />
+    <list default="true" id="661ba284-1d78-48ef-8229-8dbc79bd2018" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/livecoding/FirstSample.class" afterPath="$PROJECT_DIR$/out/livecoding/FirstSample.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/livecoding/LongWrapper.class" afterPath="$PROJECT_DIR$/out/livecoding/LongWrapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/synchronisation/Singleton.class" afterPath="$PROJECT_DIR$/out/synchronisation/Singleton.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Notes" afterPath="$PROJECT_DIR$/Notes" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/livecoding/LongWrapper.java" afterPath="$PROJECT_DIR$/src/livecoding/LongWrapper.java" />
     </list>
     <ignored path="Course-6-Multithreading-Synchronisation-Concurrancy.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -87,7 +80,7 @@
       <file leaf-file-name="RaceCondtition.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/livecoding/RaceCondtition.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-12">
+            <state relative-caret-position="175">
               <caret line="7" column="71" selection-start-line="7" selection-start-column="71" selection-end-line="7" selection-end-column="71" />
               <folding />
             </state>
@@ -107,15 +100,13 @@
       <file leaf-file-name="LongWrapper.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/livecoding/LongWrapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="19" column="109" selection-start-line="19" selection-start-column="109" selection-end-line="19" selection-end-column="109" />
+            <state relative-caret-position="675">
+              <caret line="27" column="9" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
               <folding>
-                <element signature="e#145#146#0" expanded="true" />
-                <element signature="e#171#172#0" expanded="true" />
-                <element signature="e#205#206#0" expanded="true" />
-                <element signature="e#229#230#0" expanded="true" />
-                <element signature="e#380#381#0" expanded="true" />
-                <element signature="e#405#406#0" expanded="true" />
+                <element signature="e#185#186#0" expanded="true" />
+                <element signature="e#211#212#0" expanded="true" />
+                <element signature="e#245#246#0" expanded="true" />
+                <element signature="e#269#270#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -158,10 +149,11 @@
         <option value="$PROJECT_DIR$/Notes" />
         <option value="$PROJECT_DIR$/src/livecoding/RaceCondtition.java" />
         <option value="$PROJECT_DIR$/src/livecoding/FirstRunnable.java" />
-        <option value="$PROJECT_DIR$/src/livecoding/LongWrapper.java" />
         <option value="$PROJECT_DIR$/src/synchronisation/Singleton.java" />
         <option value="$PROJECT_DIR$/src/synchronisation/Synckey.java" />
         <option value="$PROJECT_DIR$/src/livecoding/FirstSample.java" />
+        <option value="$PROJECT_DIR$/src/livecoding/Synchronisation.java" />
+        <option value="$PROJECT_DIR$/src/livecoding/LongWrapper.java" />
       </list>
     </option>
   </component>
@@ -798,7 +790,7 @@
       <workItem from="1472411965506" duration="433000" />
       <workItem from="1472412803454" duration="374000" />
       <workItem from="1472418144636" duration="2139000" />
-      <workItem from="1473345185541" duration="11662000" />
+      <workItem from="1473345185541" duration="12022000" />
     </task>
     <task id="LOCAL-00001" summary="Multithreading, Concurrency and Synchronisation">
       <created>1472410969673</created>
@@ -933,11 +925,18 @@
       <option name="project" value="LOCAL" />
       <updated>1473376543805</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Notes&#10;">
+      <created>1473376558183</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1473376558183</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15927000" />
+    <option name="totallyTimeSpent" value="16287000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="61" y="24" width="1859" height="1056" extended-state="6" />
@@ -1000,7 +999,8 @@
     <MESSAGE value="Sample threading program implementing the runnable&#10;" />
     <MESSAGE value="Simple class logic&#10;" />
     <MESSAGE value="Race Condition with 1000 threads read and write LongWrapper method&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Race Condition with 1000 threads read and write LongWrapper method&#10;" />
+    <MESSAGE value="Notes&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Notes&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1125,9 +1125,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/livecoding/Synchronisation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/livecoding/RaceCondtition.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-12">
+        <state relative-caret-position="175">
           <caret line="7" column="71" selection-start-line="7" selection-start-column="71" selection-end-line="7" selection-end-column="71" />
           <folding />
         </state>
@@ -1135,15 +1143,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/livecoding/LongWrapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="19" column="109" selection-start-line="19" selection-start-column="109" selection-end-line="19" selection-end-column="109" />
+        <state relative-caret-position="675">
+          <caret line="27" column="9" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
           <folding>
-            <element signature="e#145#146#0" expanded="true" />
-            <element signature="e#171#172#0" expanded="true" />
-            <element signature="e#205#206#0" expanded="true" />
-            <element signature="e#229#230#0" expanded="true" />
-            <element signature="e#380#381#0" expanded="true" />
-            <element signature="e#405#406#0" expanded="true" />
+            <element signature="e#185#186#0" expanded="true" />
+            <element signature="e#211#212#0" expanded="true" />
+            <element signature="e#245#246#0" expanded="true" />
+            <element signature="e#269#270#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -7,6 +7,8 @@ public class LongWrapper {
 
     private long l;
 
+    private Object key = new Object();
+
     public LongWrapper(long l)
     {
         this.l = l;
@@ -21,7 +23,9 @@ public class LongWrapper {
 
     public void incrementValue()
     {
-        l = l + 1;
+        synchronized (key) {
+            l = l + 1;
+        }
     }
 
 }
