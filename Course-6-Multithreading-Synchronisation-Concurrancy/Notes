@@ -48,6 +48,93 @@ May be 2 threads are reading and writing the same variable at the same time.
 
 Just reading the same data at same time is not a race condition.
 
+Eg: Check the code for singleton.java
+
+If t1 enters if block and is made to pause. t2 enters if block and creates an instance. t2 is paused
+now t1 creates instance and overwrites the instance variable.
+
+So both threads read and write same variable leading to race condition.
+
+How to overcome race condtion ?
+
+Synchronisation:
+
+to prevent the race condition so that another thread cannot execute the code which other thread is executing
+
+so thread t1 which is synchronised code, prevents the thread scheduler to give the hand to thread t2 which wants to execute this
+synchronised code t1.
+
+technically, add the synchronized keyword to method of singleton class.
+The moment the keyword is added, it becomes a protected block of code and lock is associated with it.
+
+How does it work internally ?
+**Lock:
+
+In Java, every object has the lock associated with it.
+So, when thread t1 wants to enter this protected block of code, it has to make a request, on the locked object and asks for
+lock key. The locked object has the key and gives it to thread t1. and t1 can now run the getInstance method freely()
+
+If another thread t2 wants to enter the synchronised block of code, it will make the same request on lock object.
+but now lock object has no key available. it already assigned to t1.
+so thread t2 has to wait until t1 finishes to get the lock and run the getInstance() method.
+
+Monitor Key:
+
+for synchronisation to work, we need a special technical object to hold the key or the lock.
+this key defined in the object class.
+
+ its called as Monitor.
+
+ For static methods,
+ the object to hold the key is -> Singleton class itself
+
+ For non-static methods,
+ the object to hold the key -> instance of the Singleton class
+
+ or it is possible to create a dedicated object to synchronise. -> see the code Synckey
+
+
+Synchronising  more than one method : each objects lock must be taken into consideration
+
+If more than one method is synchronised,
+then if t1 requests for lock to run the method 1, the lock is given. Since the other methods use the same key
+inside the class, no other thread now can run method 1 or method 2., even though t1 is not using method.
+So here only one object is defined for both the classes.
+
+But lets one more class, where there are same method 1 and method 2 exists. Both have diff objects and lock on them
+Now, t2 can execute method 1 of class 2 and t3 can execute another method.
+
+
+Locks are reentrant:
+
+Lets say , there are 2 methods each in one class which are synchronised.
+
+Now method 1 calls method 4. to call method 4 from method 1 the key of method 1 must be free. But
+method 1 key is in use. However, since its the same method 1 that needs the key, and its the same method that has the key.
+
+Hence this is an exception case.
+
+Deadlocks:
+
+t1 wants the key of method 3. Method 3 is in use from t2. t2 wants to call method 2 whose key is with t1.
+
+this leads to deadlock.
+
+Only option for deadlock is JVM reboot.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
