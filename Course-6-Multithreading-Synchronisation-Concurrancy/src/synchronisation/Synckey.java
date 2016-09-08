@@ -3,7 +3,7 @@ package synchronisation;
 /**
  * Created by kartik on 9/8/16.
  *
- * Dedicated to object to hold the key
+ * Dedicated object to hold the key
  *
  */
 public class Synckey {
