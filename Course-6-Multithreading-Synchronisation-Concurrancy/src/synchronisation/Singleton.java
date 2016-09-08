@@ -3,6 +3,7 @@ package synchronisation;
 /**
  * Created by kartik on 9/8/16.
  */
+
 public class Singleton {
 
     private static Singleton instance;
