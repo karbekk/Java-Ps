@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="661ba284-1d78-48ef-8229-8dbc79bd2018" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/livecoding/FirstRunnable$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/livecoding/FirstRunnable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/livecoding/FirstSample$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/livecoding/FirstSample.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/livecoding/LongWrapper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/livecoding/RaceCondtition$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/livecoding/RaceCondtition.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/livecoding/FirstRunnable.java" afterPath="$PROJECT_DIR$/src/livecoding/module1/FirstRunnable.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/livecoding/FirstSample.java" afterPath="$PROJECT_DIR$/src/livecoding/module1/FirstSample.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/livecoding/LongWrapper.java" afterPath="$PROJECT_DIR$/src/livecoding/module1/LongWrapper.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/livecoding/RaceCondtition.java" afterPath="$PROJECT_DIR$/src/livecoding/module1/RaceCondtition.java" />
+    <list default="true" id="661ba284-1d78-48ef-8229-8dbc79bd2018" name="Default" comment="Creating new package">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Course-6-Multithreading-Synchronisation-Concurrancy.iws" />
@@ -47,8 +36,8 @@
       <file leaf-file-name="Notes" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Notes">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3125">
-              <caret line="125" column="0" selection-start-line="125" selection-start-column="0" selection-end-line="125" selection-end-column="0" />
+            <state relative-caret-position="1700">
+              <caret line="119" column="0" selection-start-line="119" selection-start-column="0" selection-end-line="119" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -74,11 +63,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FirstRunnable.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FirstRunnable.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/livecoding/module1/FirstRunnable.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="625">
               <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="A.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/livecoding/module1/A.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -155,6 +154,7 @@
         <option value="$PROJECT_DIR$/src/livecoding/Synchronisation.java" />
         <option value="$PROJECT_DIR$/src/livecoding/LongWrapper.java" />
         <option value="$PROJECT_DIR$/src/livecoding/module1/FirstRunnable.java" />
+        <option value="$PROJECT_DIR$/src/livecoding/module1/A.java" />
       </list>
     </option>
   </component>
@@ -225,6 +225,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Course-6-Multithreading-Synchronisation-Concurrancy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Course-6-Multithreading-Synchronisation-Concurrancy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="module1" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -775,7 +793,7 @@
       <workItem from="1472418144636" duration="2139000" />
       <workItem from="1473345185541" duration="12117000" />
       <workItem from="1473448428673" duration="4000" />
-      <workItem from="1473643741893" duration="180000" />
+      <workItem from="1473643741893" duration="832000" />
     </task>
     <task id="LOCAL-00001" summary="Multithreading, Concurrency and Synchronisation">
       <created>1472410969673</created>
@@ -924,15 +942,22 @@
       <option name="project" value="LOCAL" />
       <updated>1473376944135</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Creating new package">
+      <created>1473643945308</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1473643945308</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16566000" />
+    <option name="totallyTimeSpent" value="17218000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="61" y="24" width="1859" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -942,7 +967,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32923076" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32923076" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17230769" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -993,7 +1018,8 @@
     <MESSAGE value="Race Condition with 1000 threads read and write LongWrapper method&#10;" />
     <MESSAGE value="Notes&#10;" />
     <MESSAGE value="Adding synchronised key with an object to handle race condition" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding synchronised key with an object to handle race condition" />
+    <MESSAGE value="Creating new package" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creating new package" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1204,14 +1230,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Notes">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3125">
-          <caret line="125" column="0" selection-start-line="125" selection-start-column="0" selection-end-line="125" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/lang/Runnable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1100">
@@ -1273,6 +1291,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="625">
           <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Notes">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1700">
+          <caret line="119" column="0" selection-start-line="119" selection-start-column="0" selection-end-line="119" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/livecoding/module1/A.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
           <folding />
         </state>
       </provider>
