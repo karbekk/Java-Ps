@@ -1,0 +1,62 @@
+A thread executes a task using -> A runnable Interface
+
+In Java 8, since there is only one method run() in the interface -> its called as functional interface.
+
+ 4 steps to keep in mind while launching the thread:
+
+ Step 1 : Create an instance of the runnable using normal method or using the lamba expression
+
+ Runnable task = () -> System.out.println("Hello World");
+
+Step  2:
+
+create an instance of the thread using runnable object created above as a parameter
+
+ Thread thread = new Thread(task);
+
+
+Step 3:
+
+Launch the thread:
+
+thread.start();
+
+Note:
+
+dont call the run method -> thread.run()
+
+this will not call the new thread but executes the run method in the current thread.
+
+------------------------------------
+
+to get the thread name: by using the static method
+
+Thread.currentThread().getName();
+
+-------------------------------------
+
+there is a method to stop the thread which should not be used -> stop() method.
+
+the right method to use to stop the thread is interrupt method().
+
+interrupt sends the signal to thread to stop the task it is executing
+
+the thread calls the isInturrepted() method inside it.
+-------------------------------------
+
+Producer-Consumer pattern:
+
+A producer produces the values in the buffer -> lets say in an array
+A consumer then consumes the values from this buffer
+
+Note: the thing to take care is if buffer is empty or full
+
+If its full, then the producer should not produce any more value into buffer
+if its empty, then consumer should not read any value from the buffer.
+
+
+Producer and consumer run in their own threads.
+
+Therefore, this buffer is shared among all the threads. And may lead to race condition if not synchronised.
+
+
