@@ -59,4 +59,21 @@ Producer and consumer run in their own threads.
 
 Therefore, this buffer is shared among all the threads. And may lead to race condition if not synchronised.
 
+So, solution is to make the consumer wait till the producer produces the values into buffer.
+
+ The consumer should release the key when its parked or waiting state.
+
+ This we can handle using, wait/notify methods. these are the methods from objects class.
+
+ The thread executing these methods should hold the key of the object.
+
+ Therefore, wait and notify must be inside a synchronised block. it cannot be outside the block.
+
+ Calling the wait() method releases the key held by this thread. and the this thread is put into wait state.
+
+ by calling notify on object of this thread wait state is released and puts it in runnable state. this is the only way
+ to release a waiting thread. notifyAll() will wake up all the threads in wait state.
+
+ ---------------------------------------------------------------------------------------
+
 
