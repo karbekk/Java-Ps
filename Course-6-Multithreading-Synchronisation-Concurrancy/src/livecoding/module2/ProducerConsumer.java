@@ -72,6 +72,7 @@ public class ProducerConsumer {
         producerThread.join();
 
         System.out.println("Data in the buffer is:"+ count);
+
     }
 
 }
