@@ -14,10 +14,15 @@ public class ProducerConsumer {
         void produce()
         {
             synchronized (lock){
-            while (isFull(buffer)){
-
+            if (isFull(buffer)){
+                try {
+                    lock.wait();
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
                 }
+            }
                 buffer[count++]=1;
+                lock.notifyAll();
             }
         }
     }
@@ -26,11 +31,16 @@ public class ProducerConsumer {
         void consume()
         {
             synchronized (lock){
-            while(isEmpty(buffer)){
-
+            if(isEmpty(buffer)){
+                try {
+                    lock.wait();
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
             }
             buffer[--count]=0;
-        }
+            lock.notifyAll();
+            }
     }
     }
 
