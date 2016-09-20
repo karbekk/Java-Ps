@@ -59,6 +59,8 @@ How to overcome race condtion ?
 
 Synchronisation:
 
+Prevents the a block of code to be executed by more than one thread at the same time.
+
 to prevent the race condition so that another thread cannot execute the code which other thread is executing
 
 so thread t1 which is synchronised code, prevents the thread scheduler to give the hand to thread t2 which wants to execute this
