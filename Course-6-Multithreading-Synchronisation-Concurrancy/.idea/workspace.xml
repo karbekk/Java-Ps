@@ -206,7 +206,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -260,7 +260,7 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -853,7 +853,8 @@
       <workItem from="1474386860237" duration="3092000" />
       <workItem from="1474404444353" duration="9671000" />
       <workItem from="1474433166872" duration="64000" />
-      <workItem from="1474513564021" duration="154000" />
+      <workItem from="1474513564021" duration="224000" />
+      <workItem from="1474863890778" duration="16000" />
     </task>
     <task id="LOCAL-00001" summary="Multithreading, Concurrency and Synchronisation">
       <created>1472410969673</created>
@@ -1107,11 +1108,18 @@
       <option name="project" value="LOCAL" />
       <updated>1474415321621</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="Module 2 notes">
+      <created>1474513729754</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1474513729754</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34766000" />
+    <option name="totallyTimeSpent" value="34852000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="61" y="24" width="1859" height="1056" extended-state="6" />
