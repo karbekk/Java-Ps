@@ -1,0 +1,55 @@
+Read Write operations ordering:
+
+Synchronisation protects block of code. It guarantees this block of code is executed by one thread at a time.
+So it prevents 2 threads from executing at the same time thus preventing race condition.
+
+Now a days read and write operations are critical and are diff from age old CPU's. Because CPU's does not read a variable
+from main memory, but from internal cache.
+
+CPU Architecture:
+
+We have main memory and CPU which has sub CPU's on it called cores.
+
+they are linked using bus.
+
+Inside CPU, we can have many cores. Lets say we have 4 cores, core 1 , core 2, core 3, core 4
+
+each core has several layers of memory caches called L1,L2s.
+
+There is a common layer cache for all the cores called L3.
+
+This is the typical design. The caches allow much faster access than accessing from main memory.
+Eg: Access to main memory is -> 100ns
+    Access to L2 cache       -> 7ns
+    Access to L1 cache       -> 0.5ns
+
+Trade-off: Amount of memory on main memory is    : several GB
+                                    L2 Cache is  : 256 kbs
+                                    L1 Cache     : 32kb
+
+
+Eg:
+
+we have count variable initialised to 0 in main memory.
+The Producer is running on Core 1. It needs to access the the count variable which will be copied to L1 cache.
+Core 1 increments the value of count on cache l1 from 0 to 1.
+
+Core 2 which has consumer also needs same count variable. Now count variable is placed in 2 places in my CPU.
+Core 2 should get the incremented value of 1 not the value 0 from main memory. Because core 1 has not yet written
+back the value 1 to main memory as its slow.
+
+This is called as visibility. Visibility is about informing the other caches of my CPU that variable has been modified and
+right value is in one of the caches of the CPU and should not be fetched from the main memory.
+
+Visibility: a read should return the value set by last write.
+
+so for a read and write operations to preserver visibility:
+
+1. make the methods synchronised
+2. make the shared variable volatile.
+
+
+
+
+
+
