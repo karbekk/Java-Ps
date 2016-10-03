@@ -6,3 +6,20 @@ idea is Singleton pattern should have only one instance
 
 tricky to implement in concurrent environment.
 
+if instance == null and instance = new Singleton() happen at same time its a race condition.
+
+1st soln is to make the getInstance method synchronised method so that only one thread can execute it.
+
+This works fine for single core.
+
+for 2 cores, second thread waits a little to see if the first thread releases the lock.
+
+for multiple cores, the reading is not parallel as they have to wait.
+
+thus there is bug in multicore systems. even the double check locking where writing part is synchronized also has bug.
+
+Because there is no "happen before" link between write and read. write is sync, but read is neither sync nor volatile.
+
+The right solution is enum pattern.
+
+
