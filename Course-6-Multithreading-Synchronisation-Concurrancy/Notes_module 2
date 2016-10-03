@@ -74,6 +74,35 @@ So, solution is to make the consumer wait till the producer produces the values 
  by calling notify on object of this thread wait state is released and puts it in runnable state. this is the only way
  to release a waiting thread. notifyAll() will wake up all the threads in wait state.
 
- ---------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------
 
+A thread has a state. either running  or not.
+
+A thread cannot be given the time slice by thread scheduler if its in wait list.
+
+Diff states of thread:
+
+1. When thread is created using new state.                          ->  New state
+2. When start method is called on the thread its in runnable state. ->  Runnable state
+3. Terminated state when thread is no longer can be run             ->  Terminated
+
+4. Waiting at the entrance of the synchronised block because the
+   key of the lock object is not available                          ->  Blocked
+
+5. Thread is parked in the waiting list using wait() method
+   Notify() method is used to wake up from waiting state            ->  Waiting
+6. Parked using a sleep(timeout) or wait(timeout) call.
+   Notify() method is not needed                                    ->  Timed_Waiting
+
+----------------------------------------------------------------------------------------
+
+Thread scheduler can run the threads that are in state Runnable.
+
+Blocked thread can only run if the key is released and available to it.
+
+Waiting thread can only run again if notify() method is called.
+
+getState() method of thread class can get the current state of the thread. It returns an enumeration type defined in thread class.
+
+------------------------------------------------------------------------------------
 
