@@ -77,6 +77,8 @@ Eg: Core 1 has method 1 running on it. L1 thread is executing the method. it loa
 
     This is hard to predict and hits performance. it happens in invisible way.
 
+    Variable padding is used to fix this problem.
+
     ---------------------------------------------------------------------------------------------
 
 
