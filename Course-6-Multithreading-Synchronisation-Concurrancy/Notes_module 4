@@ -1,0 +1,8 @@
+Thread Safe singleton on multiple core:
+
+Singleton class is well known pattern from gang of four.
+
+idea is Singleton pattern should have only one instance
+
+tricky to implement in concurrent environment.
+
