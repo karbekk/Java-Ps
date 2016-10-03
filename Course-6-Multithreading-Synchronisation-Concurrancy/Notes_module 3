@@ -43,10 +43,46 @@ right value is in one of the caches of the CPU and should not be fetched from th
 
 Visibility: a read should return the value set by last write.
 
-so for a read and write operations to preserver visibility:
+so for a read and write operations to preserve visibility:
 
 1. make the methods synchronised
 2. make the shared variable volatile.
+
+the "happens before" link is very imp. if there is no link values can be diff, otherwise threads follow the order.
+
+All the shared variables must be synchronised or volatile for access.
+
+False Sharing:
+----------------
+1. Happens because of the way CPU caches work
+2. Its a side effect that can have effect on performance
+
+Caches are organised as line of data inside the CPU
+Each line can hold 8 longs. (64 bytes)
+
+When a visible variable is modified in L1 cache, all the line is marked "dirty" for other caches, thus, a read
+on dirty line causes refresh on L1 line.
+
+Eg: Core 1 has method 1 running on it. L1 thread is executing the method. it loads a line of cache from main memory.
+    Core 2 has method 2 running on it. L2 thread is executing the method. it loads a line of cache from main memory.
+
+    But the way memory is arranged, cache in core 1  gets loaded with a,b contiguously.
+                                    cache in core 2 gets loaded with b,a contiguously.
+
+    Now, a++ on Core 1 cache, causes dirty lines on core 2 cache.
+    so core 2 cannot run b++ on it. because it has dirty line on it caused by core 1 cache even though core 1 cache
+    never touched variable b.
+    therefore the core 2 now has to read from main memory instead of reading from its cache. This is known as Cache Miss.
+    This mechanism is known as False Sharing.
+
+    This is hard to predict and hits performance. it happens in invisible way.
+
+    ---------------------------------------------------------------------------------------------
+
+
+
+
+
 
 
 

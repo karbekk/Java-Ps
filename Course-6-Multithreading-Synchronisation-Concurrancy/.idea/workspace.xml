@@ -37,8 +37,8 @@
       <file leaf-file-name="Notes_module 3" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Notes_module 3">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1200">
-              <caret line="48" column="37" selection-start-line="48" selection-start-column="37" selection-end-line="48" selection-end-column="37" />
+            <state relative-caret-position="768">
+              <caret line="79" column="97" selection-start-line="79" selection-start-column="97" selection-end-line="79" selection-end-column="97" />
               <folding />
             </state>
           </provider>
@@ -871,7 +871,7 @@
       <workItem from="1474433166872" duration="64000" />
       <workItem from="1474513564021" duration="224000" />
       <workItem from="1474863890778" duration="656000" />
-      <workItem from="1475456784445" duration="5983000" />
+      <workItem from="1475456784445" duration="9555000" />
     </task>
     <task id="LOCAL-00001" summary="Multithreading, Concurrency and Synchronisation">
       <created>1472410969673</created>
@@ -1167,11 +1167,18 @@
       <option name="project" value="LOCAL" />
       <updated>1475457860304</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="Module 3 notes">
+      <created>1475465652968</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1475465652968</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41475000" />
+    <option name="totallyTimeSpent" value="45047000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="61" y="24" width="1859" height="1056" extended-state="6" />
@@ -1621,8 +1628,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Notes_module 3">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1200">
-          <caret line="48" column="37" selection-start-line="48" selection-start-column="37" selection-end-line="48" selection-end-column="37" />
+        <state relative-caret-position="768">
+          <caret line="79" column="97" selection-start-line="79" selection-start-column="97" selection-end-line="79" selection-end-column="97" />
           <folding />
         </state>
       </provider>
