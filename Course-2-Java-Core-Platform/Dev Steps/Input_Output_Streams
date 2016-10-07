@@ -5,10 +5,10 @@ Stream: ordered sequence of data
 Reading:
 
 Byte streams: -> Binary data 0011001 of 8 bit -> class is InputStream and read method -> returns Int which is casted back to byte.
-Also, can return an array of byte[].
+Also, can read an array of byte[].
 
 Text Streams -> Unicode characters of 16 bit -> Class is Reader and read method-> returns Int which is casted back to char.
-Also, can return an array of char[].
+Also, can read an array of char[].
 
 Writing:
 
