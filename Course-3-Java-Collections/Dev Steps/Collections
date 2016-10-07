@@ -1,0 +1,4 @@
+Collections are needed because of problems with Arrays where
+doing dynamic add or remove or handling duplicate elements is not supported.
+
+Collections come with jdk.
