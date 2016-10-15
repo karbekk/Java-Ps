@@ -10,7 +10,7 @@ printing a newly created array is also a problem
 
 Collections come with jdk.
 
-The parent class is Collections.
+The parent class is java.util.Collections.
 
 Collection is divided into -> Lists  -> ArrayList, LinkedList
                               Set -> Hashset -> SortedSet (Treeset )
@@ -21,6 +21,10 @@ Collection is divided into -> Lists  -> ArrayList, LinkedList
  Interface vs Implementations:
 
  Interface has a behavior and implementation has performance and concrete instantiation
+
+ Collection has parent class Iterable which provides iterator to iterate over.
+
+
 
 
 
