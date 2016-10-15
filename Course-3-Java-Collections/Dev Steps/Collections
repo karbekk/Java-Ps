@@ -12,5 +12,16 @@ Collections come with jdk.
 
 The parent class is Collections.
 
-Collection is divided into -> Lists
-                              Set ->
+Collection is divided into -> Lists  -> ArrayList, LinkedList
+                              Set -> Hashset -> SortedSet (Treeset )
+                              Queue is FIFO (Priority Queue)-> Deque (LinkedList,ArrayDeque) supports both thus acts like stack
+                              Map -> HashMap -> Treemap (SortedMap)
+
+
+ Interface vs Implementations:
+
+ Interface has a behavior and implementation has performance and concrete instantiation
+
+
+
+
