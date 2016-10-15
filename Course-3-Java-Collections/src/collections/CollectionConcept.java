@@ -49,11 +49,15 @@ public class CollectionConcept {
         products.removeAll(otherProducts);
         products.remove(window);
 
-//        for (Product product: products)
-//        {
-//            System.out.println(product);
-//        }
+      /*
+        Never modify the collection elements if using for. Use iterator. Because for is a cursor. so
+        trying to iterate over and updating at same time throws excepttions.
 
+        for (Product product: products)
+        {
+            System.out.println(product);
+        }
+      */
     }
 
 }
