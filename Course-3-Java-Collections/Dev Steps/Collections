@@ -1,4 +1,16 @@
 Collections are needed because of problems with Arrays where
-doing dynamic add or remove or handling duplicate elements is not supported.
+printing the array values needs to do array.tostring method.
+
+Adding a new array and printing gives error as dynamic array or resizing is not supported.
+
+handling duplicate elements is not supported as it supports duplicates.
+printing a newly created array is also a problem
+
+
 
 Collections come with jdk.
+
+The parent class is Collections.
+
+Collection is divided into -> Lists
+                              Set ->
