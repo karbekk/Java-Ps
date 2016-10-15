@@ -24,12 +24,19 @@ public class CollectionConcept {
 
         System.out.print(products);
 
-        final Iterator<Product> productIterator =   products.iterator();
-        while (productIterator.hasNext())
+//        final Iterator<Product> productIterator =   products.iterator();
+//        while (productIterator.hasNext())
+//        {
+//            Product product = productIterator.next();
+//            System.out.println(product);
+//        }
+
+
+        for (Product product: products)
         {
-            Product product = productIterator.next();
             System.out.println(product);
         }
+
     }
 
 }
