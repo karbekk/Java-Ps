@@ -36,9 +36,9 @@ public class CollectionConcept {
             {
                    productIterator.remove();
             }
-            System.out.println(products);
         }
 
+        System.out.println(products);
 
 //        for (Product product: products)
 //        {
