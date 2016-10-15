@@ -41,6 +41,14 @@ public class CollectionConcept {
         System.out.println(products);
         System.out.println(products.size());
         System.out.println(products.isEmpty());
+
+        Collection<Product> otherProducts = new ArrayList<>();
+        otherProducts.add(door);
+        otherProducts.add(window);
+
+        products.removeAll(otherProducts);
+        products.remove(window);
+
 //        for (Product product: products)
 //        {
 //            System.out.println(product);
